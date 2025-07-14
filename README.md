@@ -4,9 +4,15 @@ This project explores how to track appearance (onAppear), disappearance (onDisap
 
 Tracking is done using a combination of `CellFrameTracker` and `CellFrameTracking ViewModifier`.
 
-Usage:
+## Screenshots
 
-```
+![iPadOS 18](https://github.com/tomaskraina/SwiftUI-CellFrameTrackingInScrollView/blob/main/Screenshot%20-%20iPadOS%2018.png)
+
+![macOS 15](https://github.com/tomaskraina/SwiftUI-CellFrameTrackingInScrollView/blob/main/Screenshot%20-%20macOS%2025.png)
+
+## Usage:
+
+```swift
 struct ContentView: View {
 
     @State private var cellFrameTracker: CellFrameTracker<GridCellItem.ID>
@@ -29,7 +35,7 @@ struct ContentView: View {
 
 ### `CellFrameTracker`
 
-```
+```swift
 @Observable
 final class CellFrameTracker<ItemID: Hashable> {
 
@@ -57,7 +63,7 @@ final class CellFrameTracker<ItemID: Hashable> {
 
 ### `CellFrameTracking`
 
-```
+```swift
 extension View {
 
     func trackCellFrame<ItemID: Hashable>(id itemID: ItemID, in coordinateSpace: CoordinateSpace, using tracker: CellFrameTracker<ItemID>) -> some View {
