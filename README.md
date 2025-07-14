@@ -8,7 +8,7 @@ Tracking is done using a combination of `CellFrameTracker` and `CellFrameTrackin
 
 ![iPadOS 18](https://github.com/tomaskraina/SwiftUI-CellFrameTrackingInScrollView/blob/main/Screenshot%20-%20iPadOS%2018.png)
 
-![macOS 15](https://github.com/tomaskraina/SwiftUI-CellFrameTrackingInScrollView/blob/main/Screenshot%20-%20macOS%2025.png)
+![macOS 15](https://github.com/tomaskraina/SwiftUI-CellFrameTrackingInScrollView/blob/main/Screenshot%20-%20macOS%2015.png)
 
 ## Usage:
 
